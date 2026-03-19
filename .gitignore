@@ -22,3 +22,8 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# Modèles locaux
+SNLP/
+*.safetensors
+*.bin
