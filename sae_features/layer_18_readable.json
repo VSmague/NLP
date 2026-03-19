@@ -1,0 +1,1022 @@
+{
+  "en": [
+    {
+      "rank": 1,
+      "feature_idx": 53452,
+      "v_score": 8.473781
+    },
+    {
+      "rank": 2,
+      "feature_idx": 68675,
+      "v_score": 2.502707
+    },
+    {
+      "rank": 3,
+      "feature_idx": 143553,
+      "v_score": 2.434114
+    },
+    {
+      "rank": 4,
+      "feature_idx": 139499,
+      "v_score": 1.945858
+    },
+    {
+      "rank": 5,
+      "feature_idx": 79175,
+      "v_score": 1.599843
+    },
+    {
+      "rank": 6,
+      "feature_idx": 94778,
+      "v_score": 1.423945
+    },
+    {
+      "rank": 7,
+      "feature_idx": 12255,
+      "v_score": 1.38477
+    },
+    {
+      "rank": 8,
+      "feature_idx": 21757,
+      "v_score": 1.354182
+    },
+    {
+      "rank": 9,
+      "feature_idx": 96782,
+      "v_score": 1.261727
+    },
+    {
+      "rank": 10,
+      "feature_idx": 1957,
+      "v_score": 1.233119
+    },
+    {
+      "rank": 11,
+      "feature_idx": 29580,
+      "v_score": 1.074103
+    },
+    {
+      "rank": 12,
+      "feature_idx": 130744,
+      "v_score": 1.03119
+    },
+    {
+      "rank": 13,
+      "feature_idx": 96642,
+      "v_score": 1.030299
+    },
+    {
+      "rank": 14,
+      "feature_idx": 33104,
+      "v_score": 0.929199
+    },
+    {
+      "rank": 15,
+      "feature_idx": 128787,
+      "v_score": 0.897596
+    },
+    {
+      "rank": 16,
+      "feature_idx": 118149,
+      "v_score": 0.895141
+    },
+    {
+      "rank": 17,
+      "feature_idx": 3106,
+      "v_score": 0.891007
+    },
+    {
+      "rank": 18,
+      "feature_idx": 107359,
+      "v_score": 0.886665
+    },
+    {
+      "rank": 19,
+      "feature_idx": 107369,
+      "v_score": 0.814372
+    },
+    {
+      "rank": 20,
+      "feature_idx": 43828,
+      "v_score": 0.76329
+    }
+  ],
+  "es": [
+    {
+      "rank": 1,
+      "feature_idx": 145804,
+      "v_score": 5.407396
+    },
+    {
+      "rank": 2,
+      "feature_idx": 37345,
+      "v_score": 3.59642
+    },
+    {
+      "rank": 3,
+      "feature_idx": 65234,
+      "v_score": 3.28062
+    },
+    {
+      "rank": 4,
+      "feature_idx": 21757,
+      "v_score": 3.055205
+    },
+    {
+      "rank": 5,
+      "feature_idx": 163100,
+      "v_score": 2.769846
+    },
+    {
+      "rank": 6,
+      "feature_idx": 34993,
+      "v_score": 2.658819
+    },
+    {
+      "rank": 7,
+      "feature_idx": 29312,
+      "v_score": 2.499732
+    },
+    {
+      "rank": 8,
+      "feature_idx": 42952,
+      "v_score": 2.441052
+    },
+    {
+      "rank": 9,
+      "feature_idx": 34878,
+      "v_score": 2.19667
+    },
+    {
+      "rank": 10,
+      "feature_idx": 55740,
+      "v_score": 1.636181
+    },
+    {
+      "rank": 11,
+      "feature_idx": 74954,
+      "v_score": 1.344119
+    },
+    {
+      "rank": 12,
+      "feature_idx": 134720,
+      "v_score": 1.328031
+    },
+    {
+      "rank": 13,
+      "feature_idx": 39142,
+      "v_score": 1.064914
+    },
+    {
+      "rank": 14,
+      "feature_idx": 146149,
+      "v_score": 1.064596
+    },
+    {
+      "rank": 15,
+      "feature_idx": 53273,
+      "v_score": 1.05953
+    },
+    {
+      "rank": 16,
+      "feature_idx": 20103,
+      "v_score": 1.019189
+    },
+    {
+      "rank": 17,
+      "feature_idx": 152559,
+      "v_score": 0.921634
+    },
+    {
+      "rank": 18,
+      "feature_idx": 152909,
+      "v_score": 0.909711
+    },
+    {
+      "rank": 19,
+      "feature_idx": 146103,
+      "v_score": 0.89104
+    },
+    {
+      "rank": 20,
+      "feature_idx": 132257,
+      "v_score": 0.888827
+    }
+  ],
+  "fr": [
+    {
+      "rank": 1,
+      "feature_idx": 21757,
+      "v_score": 4.367751
+    },
+    {
+      "rank": 2,
+      "feature_idx": 18117,
+      "v_score": 2.586749
+    },
+    {
+      "rank": 3,
+      "feature_idx": 29312,
+      "v_score": 2.276189
+    },
+    {
+      "rank": 4,
+      "feature_idx": 114535,
+      "v_score": 2.219078
+    },
+    {
+      "rank": 5,
+      "feature_idx": 58838,
+      "v_score": 2.142677
+    },
+    {
+      "rank": 6,
+      "feature_idx": 40708,
+      "v_score": 2.053397
+    },
+    {
+      "rank": 7,
+      "feature_idx": 37802,
+      "v_score": 1.974096
+    },
+    {
+      "rank": 8,
+      "feature_idx": 74954,
+      "v_score": 1.963406
+    },
+    {
+      "rank": 9,
+      "feature_idx": 152909,
+      "v_score": 1.890817
+    },
+    {
+      "rank": 10,
+      "feature_idx": 65234,
+      "v_score": 1.841182
+    },
+    {
+      "rank": 11,
+      "feature_idx": 152559,
+      "v_score": 1.656878
+    },
+    {
+      "rank": 12,
+      "feature_idx": 42952,
+      "v_score": 1.415488
+    },
+    {
+      "rank": 13,
+      "feature_idx": 20103,
+      "v_score": 1.401512
+    },
+    {
+      "rank": 14,
+      "feature_idx": 29264,
+      "v_score": 1.349797
+    },
+    {
+      "rank": 15,
+      "feature_idx": 142749,
+      "v_score": 1.241946
+    },
+    {
+      "rank": 16,
+      "feature_idx": 37345,
+      "v_score": 1.224438
+    },
+    {
+      "rank": 17,
+      "feature_idx": 6155,
+      "v_score": 1.177639
+    },
+    {
+      "rank": 18,
+      "feature_idx": 32871,
+      "v_score": 1.122364
+    },
+    {
+      "rank": 19,
+      "feature_idx": 34993,
+      "v_score": 1.07798
+    },
+    {
+      "rank": 20,
+      "feature_idx": 163100,
+      "v_score": 1.072698
+    }
+  ],
+  "ja": [
+    {
+      "rank": 1,
+      "feature_idx": 38181,
+      "v_score": 15.478799
+    },
+    {
+      "rank": 2,
+      "feature_idx": 19900,
+      "v_score": 7.060742
+    },
+    {
+      "rank": 3,
+      "feature_idx": 62446,
+      "v_score": 5.218965
+    },
+    {
+      "rank": 4,
+      "feature_idx": 143590,
+      "v_score": 4.561964
+    },
+    {
+      "rank": 5,
+      "feature_idx": 89892,
+      "v_score": 3.030886
+    },
+    {
+      "rank": 6,
+      "feature_idx": 119833,
+      "v_score": 2.522166
+    },
+    {
+      "rank": 7,
+      "feature_idx": 159111,
+      "v_score": 2.161344
+    },
+    {
+      "rank": 8,
+      "feature_idx": 14127,
+      "v_score": 2.13106
+    },
+    {
+      "rank": 9,
+      "feature_idx": 112160,
+      "v_score": 1.871091
+    },
+    {
+      "rank": 10,
+      "feature_idx": 92874,
+      "v_score": 1.735811
+    },
+    {
+      "rank": 11,
+      "feature_idx": 148020,
+      "v_score": 1.55982
+    },
+    {
+      "rank": 12,
+      "feature_idx": 98176,
+      "v_score": 1.481318
+    },
+    {
+      "rank": 13,
+      "feature_idx": 65321,
+      "v_score": 1.473821
+    },
+    {
+      "rank": 14,
+      "feature_idx": 29377,
+      "v_score": 1.396508
+    },
+    {
+      "rank": 15,
+      "feature_idx": 92671,
+      "v_score": 1.284155
+    },
+    {
+      "rank": 16,
+      "feature_idx": 146835,
+      "v_score": 1.272822
+    },
+    {
+      "rank": 17,
+      "feature_idx": 88506,
+      "v_score": 1.234006
+    },
+    {
+      "rank": 18,
+      "feature_idx": 18141,
+      "v_score": 1.231935
+    },
+    {
+      "rank": 19,
+      "feature_idx": 71559,
+      "v_score": 1.138769
+    },
+    {
+      "rank": 20,
+      "feature_idx": 120978,
+      "v_score": 1.132332
+    }
+  ],
+  "ko": [
+    {
+      "rank": 1,
+      "feature_idx": 139737,
+      "v_score": 10.691095
+    },
+    {
+      "rank": 2,
+      "feature_idx": 38181,
+      "v_score": 8.576385
+    },
+    {
+      "rank": 3,
+      "feature_idx": 143590,
+      "v_score": 7.137453
+    },
+    {
+      "rank": 4,
+      "feature_idx": 62446,
+      "v_score": 4.204378
+    },
+    {
+      "rank": 5,
+      "feature_idx": 104900,
+      "v_score": 3.630772
+    },
+    {
+      "rank": 6,
+      "feature_idx": 89892,
+      "v_score": 3.328581
+    },
+    {
+      "rank": 7,
+      "feature_idx": 153012,
+      "v_score": 2.932514
+    },
+    {
+      "rank": 8,
+      "feature_idx": 120927,
+      "v_score": 2.653921
+    },
+    {
+      "rank": 9,
+      "feature_idx": 17087,
+      "v_score": 2.534253
+    },
+    {
+      "rank": 10,
+      "feature_idx": 146835,
+      "v_score": 2.523958
+    },
+    {
+      "rank": 11,
+      "feature_idx": 112160,
+      "v_score": 2.4227
+    },
+    {
+      "rank": 12,
+      "feature_idx": 92671,
+      "v_score": 2.356003
+    },
+    {
+      "rank": 13,
+      "feature_idx": 102661,
+      "v_score": 2.267853
+    },
+    {
+      "rank": 14,
+      "feature_idx": 69351,
+      "v_score": 2.211897
+    },
+    {
+      "rank": 15,
+      "feature_idx": 159111,
+      "v_score": 2.161764
+    },
+    {
+      "rank": 16,
+      "feature_idx": 64264,
+      "v_score": 2.093015
+    },
+    {
+      "rank": 17,
+      "feature_idx": 18141,
+      "v_score": 2.080761
+    },
+    {
+      "rank": 18,
+      "feature_idx": 30049,
+      "v_score": 1.892617
+    },
+    {
+      "rank": 19,
+      "feature_idx": 29264,
+      "v_score": 1.791605
+    },
+    {
+      "rank": 20,
+      "feature_idx": 6202,
+      "v_score": 1.713675
+    }
+  ],
+  "pt": [
+    {
+      "rank": 1,
+      "feature_idx": 34878,
+      "v_score": 2.706475
+    },
+    {
+      "rank": 2,
+      "feature_idx": 29264,
+      "v_score": 2.69086
+    },
+    {
+      "rank": 3,
+      "feature_idx": 29312,
+      "v_score": 2.489536
+    },
+    {
+      "rank": 4,
+      "feature_idx": 6202,
+      "v_score": 2.463149
+    },
+    {
+      "rank": 5,
+      "feature_idx": 145804,
+      "v_score": 2.283892
+    },
+    {
+      "rank": 6,
+      "feature_idx": 21757,
+      "v_score": 2.23193
+    },
+    {
+      "rank": 7,
+      "feature_idx": 42952,
+      "v_score": 1.980082
+    },
+    {
+      "rank": 8,
+      "feature_idx": 65234,
+      "v_score": 1.757258
+    },
+    {
+      "rank": 9,
+      "feature_idx": 55740,
+      "v_score": 1.300164
+    },
+    {
+      "rank": 10,
+      "feature_idx": 114535,
+      "v_score": 1.276401
+    },
+    {
+      "rank": 11,
+      "feature_idx": 34993,
+      "v_score": 1.26751
+    },
+    {
+      "rank": 12,
+      "feature_idx": 20103,
+      "v_score": 1.23216
+    },
+    {
+      "rank": 13,
+      "feature_idx": 130648,
+      "v_score": 1.208576
+    },
+    {
+      "rank": 14,
+      "feature_idx": 26249,
+      "v_score": 1.160582
+    },
+    {
+      "rank": 15,
+      "feature_idx": 152909,
+      "v_score": 1.149633
+    },
+    {
+      "rank": 16,
+      "feature_idx": 146149,
+      "v_score": 1.10201
+    },
+    {
+      "rank": 17,
+      "feature_idx": 81644,
+      "v_score": 1.087608
+    },
+    {
+      "rank": 18,
+      "feature_idx": 42493,
+      "v_score": 1.056065
+    },
+    {
+      "rank": 19,
+      "feature_idx": 132257,
+      "v_score": 0.995165
+    },
+    {
+      "rank": 20,
+      "feature_idx": 74954,
+      "v_score": 0.990822
+    }
+  ],
+  "th": [
+    {
+      "rank": 1,
+      "feature_idx": 114326,
+      "v_score": 10.250497
+    },
+    {
+      "rank": 2,
+      "feature_idx": 56877,
+      "v_score": 8.303653
+    },
+    {
+      "rank": 3,
+      "feature_idx": 118222,
+      "v_score": 6.442069
+    },
+    {
+      "rank": 4,
+      "feature_idx": 112401,
+      "v_score": 5.682585
+    },
+    {
+      "rank": 5,
+      "feature_idx": 45805,
+      "v_score": 5.61447
+    },
+    {
+      "rank": 6,
+      "feature_idx": 118596,
+      "v_score": 5.18331
+    },
+    {
+      "rank": 7,
+      "feature_idx": 135470,
+      "v_score": 5.18034
+    },
+    {
+      "rank": 8,
+      "feature_idx": 163529,
+      "v_score": 5.00209
+    },
+    {
+      "rank": 9,
+      "feature_idx": 144973,
+      "v_score": 4.708261
+    },
+    {
+      "rank": 10,
+      "feature_idx": 28203,
+      "v_score": 4.568277
+    },
+    {
+      "rank": 11,
+      "feature_idx": 90330,
+      "v_score": 4.055267
+    },
+    {
+      "rank": 12,
+      "feature_idx": 93523,
+      "v_score": 3.334092
+    },
+    {
+      "rank": 13,
+      "feature_idx": 116649,
+      "v_score": 3.068605
+    },
+    {
+      "rank": 14,
+      "feature_idx": 71559,
+      "v_score": 2.936973
+    },
+    {
+      "rank": 15,
+      "feature_idx": 13649,
+      "v_score": 2.895529
+    },
+    {
+      "rank": 16,
+      "feature_idx": 122194,
+      "v_score": 2.853644
+    },
+    {
+      "rank": 17,
+      "feature_idx": 32548,
+      "v_score": 2.659364
+    },
+    {
+      "rank": 18,
+      "feature_idx": 21051,
+      "v_score": 2.657065
+    },
+    {
+      "rank": 19,
+      "feature_idx": 79702,
+      "v_score": 2.548905
+    },
+    {
+      "rank": 20,
+      "feature_idx": 237,
+      "v_score": 2.358561
+    }
+  ],
+  "vi": [
+    {
+      "rank": 1,
+      "feature_idx": 154676,
+      "v_score": 5.633404
+    },
+    {
+      "rank": 2,
+      "feature_idx": 118222,
+      "v_score": 3.955297
+    },
+    {
+      "rank": 3,
+      "feature_idx": 112401,
+      "v_score": 3.448434
+    },
+    {
+      "rank": 4,
+      "feature_idx": 21757,
+      "v_score": 2.911788
+    },
+    {
+      "rank": 5,
+      "feature_idx": 70630,
+      "v_score": 1.985562
+    },
+    {
+      "rank": 6,
+      "feature_idx": 17087,
+      "v_score": 1.578431
+    },
+    {
+      "rank": 7,
+      "feature_idx": 34878,
+      "v_score": 1.487429
+    },
+    {
+      "rank": 8,
+      "feature_idx": 55740,
+      "v_score": 1.291924
+    },
+    {
+      "rank": 9,
+      "feature_idx": 51670,
+      "v_score": 1.044313
+    },
+    {
+      "rank": 10,
+      "feature_idx": 93953,
+      "v_score": 0.925082
+    },
+    {
+      "rank": 11,
+      "feature_idx": 90662,
+      "v_score": 0.919532
+    },
+    {
+      "rank": 12,
+      "feature_idx": 57232,
+      "v_score": 0.89073
+    },
+    {
+      "rank": 13,
+      "feature_idx": 43551,
+      "v_score": 0.861567
+    },
+    {
+      "rank": 14,
+      "feature_idx": 24980,
+      "v_score": 0.789725
+    },
+    {
+      "rank": 15,
+      "feature_idx": 123387,
+      "v_score": 0.759862
+    },
+    {
+      "rank": 16,
+      "feature_idx": 119934,
+      "v_score": 0.751619
+    },
+    {
+      "rank": 17,
+      "feature_idx": 55577,
+      "v_score": 0.71576
+    },
+    {
+      "rank": 18,
+      "feature_idx": 44504,
+      "v_score": 0.673443
+    },
+    {
+      "rank": 19,
+      "feature_idx": 62735,
+      "v_score": 0.663439
+    },
+    {
+      "rank": 20,
+      "feature_idx": 90743,
+      "v_score": 0.658719
+    }
+  ],
+  "zh": [
+    {
+      "rank": 1,
+      "feature_idx": 27170,
+      "v_score": 9.728443
+    },
+    {
+      "rank": 2,
+      "feature_idx": 53452,
+      "v_score": 4.206943
+    },
+    {
+      "rank": 3,
+      "feature_idx": 21757,
+      "v_score": 3.405
+    },
+    {
+      "rank": 4,
+      "feature_idx": 63598,
+      "v_score": 2.740963
+    },
+    {
+      "rank": 5,
+      "feature_idx": 146730,
+      "v_score": 2.259839
+    },
+    {
+      "rank": 6,
+      "feature_idx": 89892,
+      "v_score": 2.129364
+    },
+    {
+      "rank": 7,
+      "feature_idx": 68675,
+      "v_score": 1.943662
+    },
+    {
+      "rank": 8,
+      "feature_idx": 10341,
+      "v_score": 1.821214
+    },
+    {
+      "rank": 9,
+      "feature_idx": 37853,
+      "v_score": 1.759346
+    },
+    {
+      "rank": 10,
+      "feature_idx": 35964,
+      "v_score": 1.565626
+    },
+    {
+      "rank": 11,
+      "feature_idx": 138772,
+      "v_score": 1.54427
+    },
+    {
+      "rank": 12,
+      "feature_idx": 143553,
+      "v_score": 1.496151
+    },
+    {
+      "rank": 13,
+      "feature_idx": 92872,
+      "v_score": 1.480364
+    },
+    {
+      "rank": 14,
+      "feature_idx": 43828,
+      "v_score": 1.277936
+    },
+    {
+      "rank": 15,
+      "feature_idx": 139499,
+      "v_score": 1.139194
+    },
+    {
+      "rank": 16,
+      "feature_idx": 120978,
+      "v_score": 1.090226
+    },
+    {
+      "rank": 17,
+      "feature_idx": 94778,
+      "v_score": 1.024853
+    },
+    {
+      "rank": 18,
+      "feature_idx": 110586,
+      "v_score": 0.96608
+    },
+    {
+      "rank": 19,
+      "feature_idx": 12255,
+      "v_score": 0.944361
+    },
+    {
+      "rank": 20,
+      "feature_idx": 96782,
+      "v_score": 0.906292
+    }
+  ],
+  "ar": [
+    {
+      "rank": 1,
+      "feature_idx": 25966,
+      "v_score": 24.013512
+    },
+    {
+      "rank": 2,
+      "feature_idx": 9752,
+      "v_score": 8.210785
+    },
+    {
+      "rank": 3,
+      "feature_idx": 59491,
+      "v_score": 7.344974
+    },
+    {
+      "rank": 4,
+      "feature_idx": 55726,
+      "v_score": 3.1047
+    },
+    {
+      "rank": 5,
+      "feature_idx": 120927,
+      "v_score": 2.989233
+    },
+    {
+      "rank": 6,
+      "feature_idx": 95386,
+      "v_score": 2.968017
+    },
+    {
+      "rank": 7,
+      "feature_idx": 65234,
+      "v_score": 2.583135
+    },
+    {
+      "rank": 8,
+      "feature_idx": 32548,
+      "v_score": 2.307815
+    },
+    {
+      "rank": 9,
+      "feature_idx": 40791,
+      "v_score": 2.262729
+    },
+    {
+      "rank": 10,
+      "feature_idx": 153012,
+      "v_score": 2.056569
+    },
+    {
+      "rank": 11,
+      "feature_idx": 122194,
+      "v_score": 1.823479
+    },
+    {
+      "rank": 12,
+      "feature_idx": 36454,
+      "v_score": 1.655689
+    },
+    {
+      "rank": 13,
+      "feature_idx": 112,
+      "v_score": 1.562344
+    },
+    {
+      "rank": 14,
+      "feature_idx": 112401,
+      "v_score": 1.513122
+    },
+    {
+      "rank": 15,
+      "feature_idx": 130226,
+      "v_score": 1.393332
+    },
+    {
+      "rank": 16,
+      "feature_idx": 126790,
+      "v_score": 1.388763
+    },
+    {
+      "rank": 17,
+      "feature_idx": 81755,
+      "v_score": 1.350745
+    },
+    {
+      "rank": 18,
+      "feature_idx": 117727,
+      "v_score": 1.346573
+    },
+    {
+      "rank": 19,
+      "feature_idx": 2067,
+      "v_score": 1.339957
+    },
+    {
+      "rank": 20,
+      "feature_idx": 51670,
+      "v_score": 1.335719
+    }
+  ]
+}

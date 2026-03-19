@@ -2,7 +2,12 @@
 secrets.ini
 
 # SAE features (gros fichiers .pt)
-sae_features/
+# Gros tenseurs SAE (recalculables depuis HuggingFace)
+sae_features/*.pt
+
+# Garder les JSON lisibles et les caches pkl
+!sae_features/*.json
+!sae_features/*.pkl
 
 # Python
 __pycache__/
