@@ -1,0 +1,19 @@
+# Secrets
+secrets.ini
+
+# SAE features (gros fichiers .pt)
+sae_features/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
