@@ -52,11 +52,11 @@ CACHE_FIG6 = os.path.join(SAVE_DIR, "fig6_cache.pkl")
 LANG_ABLATE = "fr"
 
 # Pour Fig 6 : les 3 langues évaluées (cible + 2 contrôles)
-# Paper : French (cible), + 2 autres — on prend Japanese et Chinese comme contrôles
-LANGS_FIG6  = ["fr", "ja", "zh"]
+# Paper : French (cible), + 2 autres — on prend Japanese et Espagnol comme contrôles
+LANGS_FIG6  = ["fr", "es", "ja"]
 
 N_SENTENCES = 100   # phrases par langue — mettre True pour tout le dataset
-RECOMPUTE   = False  # True pour forcer le recalcul
+RECOMPUTE = False  # True pour forcer le recalcul
 
 TARGET_LANGUAGES = ['en', 'es', 'fr', 'ja', 'ko', 'pt', 'th', 'vi', 'zh', 'ar']
 LANG_NAMES = {

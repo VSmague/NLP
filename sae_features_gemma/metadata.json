@@ -1,0 +1,26 @@
+{
+  "model": "google/gemma-2-2b",
+  "languages": [
+    "en",
+    "es",
+    "fr",
+    "ja",
+    "ko",
+    "pt",
+    "th",
+    "vi",
+    "zh",
+    "ar"
+  ],
+  "layers": [
+    0,
+    2,
+    5,
+    10,
+    15,
+    20
+  ],
+  "top_k": 5,
+  "source": "v_scores_run_reprod_fig_1_top5.csv",
+  "ks_mapped_to_ar": true
+}
