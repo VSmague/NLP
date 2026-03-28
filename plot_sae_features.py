@@ -17,7 +17,7 @@ from matplotlib.gridspec import GridSpec
 
 # ── Config ────────────────────────────────────────────────────────────────────
 SAVE_DIR   = "sae_features"
-OUTPUT_DIR = "plots"
+OUTPUT_DIR = "output/plots_sae_features"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 LANG_COLORS = {

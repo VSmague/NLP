@@ -5,15 +5,7 @@ Reproduces Figures 5 and 6 from Section 5 of:
   "Unveiling Language-Specific Features in LLMs via Sparse Autoencoders"
   Deng et al., ACL 2025
 
-Figure 5 : Delta-CE after ablating the top-1 feature of a target language,
-           evaluated on ALL languages, plotted per layer.
-           -> Shows that ablation only significantly impacts the target language.
-
-Figure 6 : Delta-CE for 3 languages (target + 2 controls) when ablating
-           top-1 only, top-2 only, top-1+2 together for FR features.
-           -> Shows the synergistic effect between features, per layer.
-
-Requires: having run ablation.py once (sae_features/ must exist).
+Requires: having run compute_nu_scores.py once (sae_features/ must exist).
 """
 
 import os
@@ -36,20 +28,14 @@ config.read("secrets.ini")
 os.environ["HF_TOKEN"] = config["huggingface"]["token"]
 
 # ── Parameters ────────────────────────────────────────────────────────────────
-MODEL_ID    = "google/gemma-2-2b"
-SAE_RELEASE = "gemma-scope-2b-pt-res-canonical"
-SAVE_DIR    = "sae_features_gemma"
-OUTPUT_DIR  = "figures_section5_gemma"
+MODEL_ID    = "Qwen/Qwen3-0.6B"
+SAE_RELEASE = "mwhanna-qwen3-0.6b-transcoders-lowl0"
+SAVE_DIR    = "sae_features"
+OUTPUT_DIR  = "output/figures_section5"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 CACHE_FIG5 = os.path.join(SAVE_DIR, "fig5_cache.pkl")
 CACHE_FIG6 = os.path.join(SAVE_DIR, "fig6_cache.pkl")
-
-# Language whose features we ablate (paper uses FR for Fig 6)
-LANG_ABLATE = "fr"
-
-# For Fig 6: the 3 evaluated languages (target + 2 controls)
-LANGS_FIG6  = ["fr", "es", "ja"]
 
 N_SENTENCES = 100
 RECOMPUTE   = False
@@ -167,7 +153,7 @@ if need_compute:
     print("\n[1] Loading model...")
     t0 = time.time()
     model = AutoModelForCausalLM.from_pretrained(
-        MODEL_ID, device_map="auto", torch_dtype=torch.bfloat16
+        MODEL_ID, device_map="auto", dtype=torch.float32
     )
     tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
     model.eval()
@@ -204,7 +190,7 @@ if need_compute:
 #   "top-1+2" : ablate rank-1 and rank-2 together
 # =============================================================================
 
-FIG5_CONFIGS = ["top-1", "top-1+2"]   # <- edit to keep only one if needed
+FIG5_CONFIGS = ["top-1", "top-1+2"]
 
 if RECOMPUTE or not os.path.exists(CACHE_FIG5):
     print("\n[Fig 5] Computing delta-CE per language, per layer, per config...")
@@ -222,7 +208,7 @@ if RECOMPUTE or not os.path.exists(CACHE_FIG5):
         j = TARGET_LANGUAGES.index(lang_ablate)
 
         for layer in LAYERS:
-            sae = SAE.from_pretrained(SAE_RELEASE, f"layer_{layer}/width_16k/canonical").to(device)
+            sae = SAE.from_pretrained(SAE_RELEASE, f"layer_{layer}").to(device)
 
             feat_map = {
                 "top-1"   : top_index_all[layer][j, 0:1].to(device),
@@ -264,7 +250,7 @@ else:
 # Typological proximity pairs used:
 #   en  → close: fr (Indo-European),       distant: zh (Sino-Tibetan)
 #   es  → close: pt (Ibero-Romance),       distant: ja (Japonic)
-#   fr  → close: es (Romance),             distant: ar (Semitic)
+#   fr  → close: es (Romance),             distant: th (Tai-Kadai)
 #   ja  → close: ko (similar morphology),  distant: en (Germanic)
 #   ko  → close: ja (agglutinative),       distant: ar (Semitic)
 #   pt  → close: es (Ibero-Romance),       distant: th (Tai-Kadai)
@@ -279,7 +265,7 @@ LANG_CLOSE = {
     'pt': 'es',  'th': 'vi',  'vi': 'th',  'zh': 'ja',  'ar': 'en',
 }
 LANG_DISTANT = {
-    'en': 'zh',  'es': 'ja',  'fr': 'ar',  'ja': 'en',  'ko': 'ar',
+    'en': 'zh',  'es': 'ja',  'fr': 'th',  'ja': 'en',  'ko': 'ar',
     'pt': 'th',  'th': 'ar',  'vi': 'en',  'zh': 'es',  'ar': 'zh',
 }
 
@@ -317,7 +303,7 @@ if RECOMPUTE or not os.path.exists(CACHE_FIG6):
         triple = FIG6_TRIPLES[lang_ablate]   # (target, close, distant)
 
         for layer in LAYERS:
-            sae = SAE.from_pretrained(SAE_RELEASE, f"layer_{layer}/width_16k/canonical").to(device)
+            sae = SAE.from_pretrained(SAE_RELEASE, f"layer_{layer}").to(device)
 
             feat_top1 = top_index_all[layer][j, 0:1].to(device)
             feat_top2 = top_index_all[layer][j, 1:2].to(device)
@@ -431,7 +417,7 @@ for cfg in FIG5_CONFIGS:
         axes[ax_idx].set_visible(False)
 
     fig.suptitle(
-        f"Figure 5 (Gemma-2-2B) — ΔCE per layer after ablating {CFG_LABEL[cfg]}\n"
+        f"Figure 5 — ΔCE per layer after ablating {CFG_LABEL[cfg]}\n"
         "Ablation significantly impacts the target language (red) but not others",
         fontsize=11, fontweight='bold', y=1.01
     )
@@ -529,7 +515,7 @@ for lang_ablate in TARGET_LANGUAGES:
                fontsize=9, framealpha=0.5, bbox_to_anchor=(0.5, -0.08))
 
     fig.suptitle(
-        f"Figure 6 (Gemma-2-2B) — Ablating {LANG_NAMES[lang_ablate]} top-1 & top-2 features\n"
+        f"Figure 6 — Ablating {LANG_NAMES[lang_ablate]} top-1 & top-2 features\n"
         f"Synergy expected on {LANG_NAMES[lang_target]}, "
         f"not on close ({LANG_NAMES[lang_close]}) "
         f"or distant ({LANG_NAMES[lang_distant]})",

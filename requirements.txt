@@ -1,0 +1,18 @@
+# Core ML
+torch
+transformers
+sae-lens
+ 
+# Data
+datasets
+requests
+numpy
+pandas
+ 
+# Visualisation
+matplotlib
+seaborn
+ 
+# Scientific / clustering
+scipy
+scikit-learn

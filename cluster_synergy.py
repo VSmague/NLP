@@ -14,7 +14,7 @@ Pour chaque paire de langues (lang_A, lang_B) :
 Hypothèse : synergie > 0 pour paires intra-cluster,
             synergie ≈ 0 pour paires inter-cluster.
 
-Requires: sae_features/ with ablation.py outputs.
+Requires: sae_features/ with compute_nu_scores.py outputs.
 """
 
 import os
@@ -40,12 +40,12 @@ os.environ["HF_TOKEN"] = config["huggingface"]["token"]
 MODEL_ID    = "Qwen/Qwen3-0.6B"
 SAE_RELEASE = "mwhanna-qwen3-0.6b-transcoders-lowl0"
 SAVE_DIR    = "sae_features"
-OUTPUT_DIR  = "plots_synergy_new"
+OUTPUT_DIR  = "output/plots_synergy"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 CACHE_PATH  = os.path.join(SAVE_DIR, "cluster_synergy_cache.pkl")
 N_SENTENCES = 100
-RECOMPUTE   = True
+RECOMPUTE   = False
 
 # ── Clusters (from cross_linguistic_interaction.py output) ────────────────────
 CLUSTERS = {
@@ -659,5 +659,5 @@ plt.close()
 print("→ 5_synergy_example_pairs.png")
 
 
-print(f"\n✅ All plots saved to '{OUTPUT_DIR}/'  —  5 plots")
+print(f"\nAll plots saved to '{OUTPUT_DIR}/'  —  5 plots")
 print("   Intra-cluster synergy expected to be higher than inter-cluster.")

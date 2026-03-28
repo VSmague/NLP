@@ -7,7 +7,7 @@ Builds the cross-linguistic interaction matrix:
               on text in language i after ablating the top
               features of language j at each layer
 
-Prerequisites: ablation.py must have been run at least once
+Prerequisites: compute_nu_scores.py must have been run at least once
                (sae_features/ must exist with .pt and .json files)
 """
 
@@ -38,7 +38,7 @@ os.environ["HF_TOKEN"] = config["huggingface"]["token"]
 MODEL_ID    = "Qwen/Qwen3-0.6B"
 SAE_RELEASE = "mwhanna-qwen3-0.6b-transcoders-lowl0"
 SAVE_DIR    = "sae_features"
-OUTPUT_DIR  = "plots_interaction"
+OUTPUT_DIR  = "output/plots_interaction"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 INTERACTION_CACHE = os.path.join(SAVE_DIR, "interaction_matrix_avg_layers.pkl")
@@ -221,7 +221,7 @@ if RECOMPUTE or not os.path.exists(INTERACTION_CACHE):
             "top_k"       : TOP_K_ABLATE,
             "method"      : "avg_layers",
         }, f)
-    print(f"\n✅ Matrix saved to {INTERACTION_CACHE}")
+    print(f"\nMatrix saved to {INTERACTION_CACHE}")
 
 else:
     print(f"\n[2-3] Loading from cache ({INTERACTION_CACHE})...")
@@ -233,7 +233,7 @@ else:
     LAYERS      = cache["layers"]
     n_langs     = len(LANGUAGES)
     n_layers    = len(LAYERS)
-    print(f"   ✅ M shape: {M.shape}  layers={LAYERS}  top_k={cache['top_k']}")
+    print(f"M shape: {M.shape}  layers={LAYERS}  top_k={cache['top_k']}")
 
 
 # =============================================================================
@@ -494,4 +494,4 @@ pd.DataFrame(M, index=LANGUAGES, columns=LANGUAGES).to_csv(
 )
 print("→ interaction_matrix_avg_layers.csv")
 
-print(f"\n✅ All outputs saved to '{OUTPUT_DIR}/'  —  7 plots + 1 CSV")
+print(f"\nAll outputs saved to '{OUTPUT_DIR}/'  —  7 plots + 1 CSV")
